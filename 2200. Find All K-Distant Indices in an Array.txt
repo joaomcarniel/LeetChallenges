@@ -1,0 +1,21 @@
+public class Solution {
+    public IList<int> FindKDistantIndices(int[] nums, int key, int k) {
+        List<int> indexKey = new List<int>();
+        List<int> response = new List<int>();
+        for(int j = 0; j < nums.Length; j++){
+            if(nums[j] == key){
+                indexKey.Add(j);
+            }
+        }
+        for(int i = 0; i < nums.Length; i++){
+           foreach(var index in indexKey){
+            if(Math.Abs(index - i) <= k && !response.Contains(i)){
+                response.Add(i);
+                break;
+            }
+           }
+        }
+
+        return response;
+    }
+}
