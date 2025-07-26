@@ -1,0 +1,20 @@
+public class Solution {
+    public int MaxSum(int[] nums) {
+        int[] subArray =  new int[nums.Length];
+        int result = 0;
+        for(int i = 0; i < nums.Length; i++){
+            if(nums[i] > 0 && !subArray.Contains(nums[i])){
+                subArray[i] = nums[i];
+                result += subArray[i];
+            }
+        }
+        if(result == 0){
+            result = nums[0];
+            for(int i = 0; i < nums.Length; i++){
+                result = nums[i] > result ? nums[i] : result;
+            }
+        }
+
+        return result;
+    }
+}
