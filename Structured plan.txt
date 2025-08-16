@@ -1,0 +1,139 @@
+Week 1: Foundations & Recursion
+
+Goal: Master recursion patterns and start thinking recursively.
+
+Topics & Activities:
+
+Recursion Basics:
+
+Factorials, Fibonacci, sum of array, string reversals.
+
+Backtracking Basics:
+
+Subsets, permutations, combinations.
+
+LeetCode Practice (Easy → Medium):
+
+Pascal’s Triangle
+
+Generate Parentheses
+
+Subsets
+
+Permutations
+
+Tips:
+
+Focus on writing recursive solutions first.
+
+Draw recursion trees to understand function calls.
+
+Week 2: Linked Lists & Trees
+
+Goal: Understand recursive structures in data structures.
+
+Topics & Activities:
+
+Linked List Recursion:
+
+Reverse a linked list, detect cycles.
+
+Binary Trees Recursion:
+
+Traversals: preorder, inorder, postorder (both recursive & iterative).
+
+Height of a tree, max path sum.
+
+LeetCode Practice (Medium):
+
+Maximum Depth of Binary Tree
+
+Symmetric Tree
+
+Linked List Cycle II
+
+Tips:
+
+Recursion is natural in trees; try solving iteratively afterwards for practice.
+
+Week 3: Backtracking & DFS
+
+Goal: Solve combinatorial problems and graph-like DFS problems.
+
+Topics & Activities:
+
+Backtracking Problems:
+
+N-Queens, combination sum, word search.
+
+DFS on Graphs / Grids:
+
+Flood fill, number of islands.
+
+LeetCode Practice:
+
+Combination Sum
+
+Word Search
+
+Number of Islands
+
+Tips:
+
+Focus on recognizing patterns: recursion + branching.
+
+Week 4: Dynamic Programming (DP)
+
+Goal: Learn to transform recursion into DP for efficiency.
+
+Topics & Activities:
+
+Recursion → DP:
+
+Fibonacci with memoization.
+
+Climbing stairs, minimum path sum.
+
+LeetCode Practice:
+
+Climbing Stairs
+
+Minimum Path Sum
+
+Coin Change
+
+Tips:
+
+Always start with the recursive solution.
+
+Then add memoization or bottom-up DP.
+
+Optional Weeks 5–6: Advanced Patterns
+
+Goal: Solve complex problems combining recursion, DP, and trees/graphs.
+
+LeetCode Focus Areas:
+
+Sliding window, two pointers, binary search on answers.
+
+Medium → Hard problems in:
+
+Trees: Binary Tree Maximum Path Sum
+
+DP: Longest Increasing Subsequence
+
+Graphs: Course Schedule
+
+Extra Tips for Structured Learning
+
+Journal Your Progress: Keep a notebook for patterns learned.
+
+Time Yourself: Aim to solve each problem in ~30–60 minutes.
+
+Learn Patterns, Not Just Solutions: Many problems share templates.
+
+Review & Refactor: After solving, optimize for time and memory.
+
+If you want, I can make a ready-to-follow LeetCode calendar with exact daily problems for 4 weeks. It would tell you what to solve each day, so you don’t have to choose randomly.
+
+Do you want me to do that?
